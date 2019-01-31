@@ -1,4 +1,4 @@
-# TravelVlogs-Starter
+# Video Log Demo
 
 ## Overview
 
