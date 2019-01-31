@@ -1,32 +1,10 @@
-/**
- * Copyright (c) 2017 Razeware LLC
- *
- * Permission is hereby granted, free of charge, to any person obtaining a copy
- * of this software and associated documentation files (the "Software"), to deal
- * in the Software without restriction, including without limitation the rights
- * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- * copies of the Software, and to permit persons to whom the Software is
- * furnished to do so, subject to the following conditions:
- *
- * The above copyright notice and this permission notice shall be included in
- * all copies or substantial portions of the Software.
- *
- * Notwithstanding the foregoing, you may not use, copy, modify, merge, publish,
- * distribute, sublicense, create a derivative work, and/or sell copies of the
- * Software in any work that is designed, intended, or marketed for pedagogical or
- * instructional purposes related to programming, coding, application development,
- * or information technology.  Permission for such use, copying, modification,
- * merger, publication, distribution, sublicensing, creation of derivative works,
- * or sale is expressly withheld.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- * THE SOFTWARE.
- */
+//
+//  Video.swift
+//  TravelVlogs
+//
+//  Created by James Berry on 31/1/2019.
+//  Copyright © 2019 JARBerry. All rights reserved.
+//
 
 import UIKit
 
@@ -68,15 +46,14 @@ class Video: NSObject {
   class func allVideos() -> [Video] {
     var videos = localVideos()
     // This URL represents a HTTP Live Stream(HLS)
-    let videoURLString = "https://wolverine.raywenderlich.com/content/ios/tutorials/video_streaming/foxVillage.m3u8"
-    // This URL represents a normal .mov file "https://jarberry.github.io/images/pic_04.mov"
+    let videoURLString = "https://jarberry.github.io/images/pic_04.mov"
 
     // Add one remote video
     if let url = URL(string: videoURLString) {
-      let thumbURLPath = Bundle.main.path(forResource: "foxVillage", ofType: "png")!
+      let thumbURLPath = Bundle.main.path(forResource: "img_pic_04_pf01", ofType: "png")!
       let thumbURL = URL(fileURLWithPath: thumbURLPath)
       
-      let remoteVideo = Video(url: url, thumbURL: thumbURL, title: "キツネ村", subtitle: "Will we be mauled by vicious foxes? Tune in to find out!")
+      let remoteVideo = Video(url: url, thumbURL: thumbURL, title: "Magic Paper", subtitle: "HLS link to an App I've created using ARKit2")
       videos.append(remoteVideo)
     }
     

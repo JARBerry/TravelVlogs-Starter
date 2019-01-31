@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		173F312022034F2A005130AA /* img_pic_04_pf01.png in Resources */ = {isa = PBXBuildFile; fileRef = 173F311F22034F2A005130AA /* img_pic_04_pf01.png */; };
 		AE04866C205A747E00BA6DBB /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE04865F205A747E00BA6DBB /* Roboto-Medium.ttf */; };
 		AE04866D205A747E00BA6DBB /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE048660205A747E00BA6DBB /* Roboto-Light.ttf */; };
 		AE04866E205A747E00BA6DBB /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE048661205A747E00BA6DBB /* Roboto-Regular.ttf */; };
@@ -47,6 +48,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		173F311F22034F2A005130AA /* img_pic_04_pf01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img_pic_04_pf01.png; path = "../../../../../CV Portfolio/JARBerry.github.io/images/img_pic_04_pf01.png"; sourceTree = "<group>"; };
 		AE04865F205A747E00BA6DBB /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
 		AE048660205A747E00BA6DBB /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
 		AE048661205A747E00BA6DBB /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
@@ -78,7 +80,7 @@
 		AE0486C7205A8C3B00BA6DBB /* newYorkFlip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newYorkFlip.png; sourceTree = "<group>"; };
 		AE0486CB205A9D7D00BA6DBB /* foxVillage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foxVillage.png; sourceTree = "<group>"; };
 		AE84707C20467A10004BE990 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
-		AE95F5592043A7E400B27C3F /* TravelVlogs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelVlogs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE95F5592043A7E400B27C3F /* TravelVlogs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = TravelVlogs.app; path = "/Users/rayberry/Desktop/Swift Projects/TravelVlogsSampleApps/TravelVlogs-Starter/build/Debug-iphoneos/TravelVlogs.app"; sourceTree = "<absolute>"; };
 		AE95F55C2043A7E400B27C3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE95F5632043A7E400B27C3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE95F5682043A7E400B27C3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -147,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				AE0486CB205A9D7D00BA6DBB /* foxVillage.png */,
+				173F311F22034F2A005130AA /* img_pic_04_pf01.png */,
 				AE0486C7205A8C3B00BA6DBB /* newYorkFlip.png */,
 				AE0486B9205A868B00BA6DBB /* bulletTrain.png */,
 				AE0486BF205A87FD00BA6DBB /* monkey.png */,
@@ -159,16 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				AE95F55B2043A7E400B27C3F /* TravelVlogs */,
-				AE95F55A2043A7E400B27C3F /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		AE95F55A2043A7E400B27C3F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				AE95F5592043A7E400B27C3F /* TravelVlogs.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		AE95F55B2043A7E400B27C3F /* TravelVlogs */ = {
@@ -256,7 +250,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 1000;
-				ORGANIZATIONNAME = "Ray Wenderlich";
+				ORGANIZATIONNAME = JARBerry;
 				TargetAttributes = {
 					AE95F5582043A7E400B27C3F = {
 						CreatedOnToolsVersion = 9.2;
@@ -274,7 +268,7 @@
 				Base,
 			);
 			mainGroup = AE95F5502043A7E400B27C3F;
-			productRefGroup = AE95F55A2043A7E400B27C3F /* Products */;
+			productRefGroup = AE95F5502043A7E400B27C3F;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -315,6 +309,7 @@
 				AE048670205A747E00BA6DBB /* Roboto-ThinItalic.ttf in Resources */,
 				AE048672205A747E00BA6DBB /* Roboto-LightItalic.ttf in Resources */,
 				AE0486B0205A845C00BA6DBB /* shark-clip.mp4 in Resources */,
+				173F312022034F2A005130AA /* img_pic_04_pf01.png in Resources */,
 				AEF6DBC820469DC7007F55DC /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
